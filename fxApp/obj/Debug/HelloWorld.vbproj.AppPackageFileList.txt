@@ -1,2 +1,0 @@
-bin\Debug\app.publish\OfficeAppManifests\HelloWorldManifest.xml
-c:\users\abdlrhman shehata\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\bin\Debug\app.publish\HelloWorld.app

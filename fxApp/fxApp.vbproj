@@ -56,7 +56,7 @@
     <Folder Include="My Project\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorldWeb\HelloWorldWeb.vbproj">
+    <ProjectReference Include="..\fxAppWeb\fxAppWeb.vbproj">
       <Project>{F7C90B7A-441F-4900-BE79-0E2C53FFD4AA}</Project>
       <Name>HelloWorldWeb</Name>
       <Private>True</Private>

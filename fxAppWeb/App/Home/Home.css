@@ -1,102 +1,50 @@
-﻿/* Page-specific styling */
-html
-{
- 
-    height:100%;
-      
+﻿html {
+   position: relative ;
+   height: 100%;
 }
-body
-{
-    position: relative;
-    height:100%;
-
-}
-/*----------------------------------------------------------------------------------------------------*/
-/*--------------------------------HEADER HEADER HEADER HEADER HEADER HEADER HEADER-------------------------*/
-.header
-{
-    position: relative;
-    margin:0;
-    height:20%;
-    background-color:#323235;
-}
-.cont-header
-{
-    padding:0;
-    margin:0;
-    position:absolute;
-    text-align:center;
-     border:0;
-}
-.cont-header h1
-{
-    font-size:30px;
-    font-family:'Agency FB';
-    color:White;
-}
-
-/*----------------------------------------------------------------------------------------------------*/
-/*--------------------------------MIDDLE MIDDLE MIDDLE MIDDLE---------------------------------------*/
-
-.middle
-{
-    position: relative;
-    height:70%;
-     
-}
-.slides
-{
-
-}
- 
-.slide 
-{
-    position:absolute;
-    display: none;
-    width: 100%;
+body {
+    position: relative ;
     height: 100%;
 }
-#slide1
-{
-    background: transparent url('http://i32.photobucket.com/albums/d49/abdlrhmanshehata/slide21_zpsb580185d.jpg ') center center no-repeat;
-    background-size: cover;
+/*==================================HEADER HEADER HEADER HEADER HEADER ============================================*/
+.header{
+    position: relative ;
+    height: 15%;
+    background-color:#362e2e;
 }
-#slide2
-{
-     background: transparent url(' http://i32.photobucket.com/albums/d49/abdlrhmanshehata/slide2_zpsf4248e8e.jpg ') center center no-repeat;
-    background-size: cover;
-}
-.activeslide
-{
-    display: block;
-}
-/*----------------------------------------------------------------------------------------------------*/
-/*-----------------------------------FOOTER FOOTER FOOTER FOOTER FOOTER-----------------------------------*/
-.footer
-{
+/*==================================MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE ============================================*/
+.middle{
     position: relative;
-    height:10%;
-    background-color:#323235;
+    height: 70%;
+    background-color:#f7f7f7;
 }
-.cont-footer 
-{
-position:absolute;
+    .middle-leftbar{
+        position:relative  ;
+        border-left: 1px solid black; 
+        background-color: #6aade6;
+        width: 8%;
+        height: 100%;
+        display: inline-block;
+    }
+    .middle-center{
+        position:relative;
+        background-color: #deab5b;
+        border: 1px solid black;
+        width: 83%;
+        height: 100%;
+        display: inline-block;
+        }
+    .middle-rightbar{
+        position:relative  ;
+        border-right: 1px solid black;
+        background-color:  #6aade6;
+        width: 8%;
+        height: 100%;
+        display: inline-block;
+        }
+/*===================================FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER =====================================*/
+.footer{
+    position: relative;
+    height: 15%;
+    background-color:#362e2e;
 }
-.cont-footer li
-{
-    display:inline;
- margin-right:50px;
-        
-}
-.cont-footer a
-{
-    font-size:20px;
-    color:white;
-}
-
-
-
-
-/*---------------------------------------------------------------------------*/
- 
- 
